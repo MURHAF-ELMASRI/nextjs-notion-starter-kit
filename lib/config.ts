@@ -4,7 +4,6 @@
  * This file pulls from the root "site.config.ts" as well as environment variables
  * for optional depenencies.
  */
-import config from 'next/config'
 
 import { parsePageId } from 'notion-utils'
 import { PostHogConfig } from 'posthog-js'
