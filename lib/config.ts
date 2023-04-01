@@ -4,6 +4,8 @@
  * This file pulls from the root "site.config.ts" as well as environment variables
  * for optional depenencies.
  */
+import config from 'next/config'
+
 import { parsePageId } from 'notion-utils'
 import { PostHogConfig } from 'posthog-js'
 
@@ -219,3 +221,10 @@ function invertPageUrlOverrides(
     }
   }, {})
 }
+
+export const rtlPages = getSiteConfig<Array<string>>('rtlPages')
+
+export const defaultMode: 'dark' | 'light' = getSiteConfig(
+  'defaultMode',
+  'dark'
+)
