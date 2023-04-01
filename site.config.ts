@@ -9,7 +9,7 @@ export default siteConfig({
 
   // basic site info (required)
   name: 'Murhaf Al-masri',
-  domain: 'Murhaf Al-masri',
+  domain: 'murhaf-almasri.com',
   author: 'Murhaf Al-masri',
 
   // open graph metadata (optional)
@@ -74,6 +74,7 @@ export default siteConfig({
     'e833ae23-c274-4ca1-8aa1-5460767e32f4',
     '48710a47-55b5-4ff9-bef8-1a4aec20d0ba',
     '1452bfc4-3a60-4077-8e6f-d624f01ec954',
-    '12fa65c4-df2b-4fc0-850b-d098714847dc'
+    '12fa65c4-df2b-4fc0-850b-d098714847dc',
+    '41efff2f-8e64-4d36-a376-7266203319f6'
   ]
 })
