@@ -1,3 +1,8 @@
 .rtl{
     direction: rtl;
 }
+
+.notion-collection {
+    width: 100%;
+    overflow: scroll;
+}
