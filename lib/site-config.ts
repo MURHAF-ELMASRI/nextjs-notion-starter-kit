@@ -16,11 +16,12 @@ export interface SiteConfig {
   newsletter?: string
   youtube?: string
   zhihu?: string
-  mastodon?: string;
+  mastodon?: string
 
   defaultPageIcon?: string | null
   defaultPageCover?: string | null
   defaultPageCoverPosition?: number | null
+  defaultMode: 'dark' | 'light'
 
   isPreviewImageSupportEnabled?: boolean
   isTweetEmbedSupportEnabled?: boolean
@@ -33,6 +34,8 @@ export interface SiteConfig {
 
   navigationStyle?: types.NavigationStyle
   navigationLinks?: Array<NavigationLink>
+
+  rtlPages?: Array<string>
 }
 
 export interface NavigationLink {
