@@ -2,34 +2,31 @@ import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
-  rootNotionPageId: '7875426197cf461698809def95960ebf',
-
+  rootNotionPageId: 'bc466a73a6e64ecaa3d9e961260ffa9f',
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'Next.js Notion Starter Kit',
-  domain: 'nextjs-notion-starter-kit.transitivebullsh.it',
-  author: 'Travis Fischer',
+  name: 'Murhaf Al-masri',
+  domain: 'Murhaf Al-masri',
+  author: 'Murhaf Al-masri',
 
   // open graph metadata (optional)
-  description: 'Example Next.js Notion Starter Kit Site',
+  description: 'Full Stack Developer',
 
   // social usernames (optional)
-  twitter: 'transitive_bs',
-  github: 'transitive-bullshit',
-  linkedin: 'fisch2',
+  github: 'MURHAF-ELMASRI',
+  linkedin: 'murhaf-elmasri',
   // mastodon: '#', // optional mastodon profile URL, provides link verification
   // newsletter: '#', // optional newsletter URL
   // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
-
   // default notion icon and cover images for site-wide consistency (optional)
   // page-specific values will override these site-wide defaults
   defaultPageIcon: null,
   defaultPageCover: null,
   defaultPageCoverPosition: 0.5,
-
+  defaultMode: 'dark',
   // whether or not to enable support for LQIP preview images (optional)
   isPreviewImageSupportEnabled: true,
 
@@ -50,16 +47,33 @@ export default siteConfig({
 
   // whether to use the default notion navigation style or a custom one with links to
   // important pages
-  navigationStyle: 'default'
-  // navigationStyle: 'custom',
-  // navigationLinks: [
-  //   {
-  //     title: 'About',
-  //     pageId: 'f1199d37579b41cbabfc0b5174f4256a'
-  //   },
-  //   {
-  //     title: 'Contact',
-  //     pageId: '6a29ebcb935a4f0689fe661ab5f3b8d1'
-  //   }
-  // ]
+  // navigationStyle: 'default'
+  navigationStyle: 'custom',
+  navigationLinks: [
+    {
+      title: 'مقالات',
+      pageId: 'e833ae23c2744ca18aa15460767e32f4'
+    },
+    {
+      title: 'كتب',
+      pageId: 'e56cda5667e94a888e701c92c4c8d0f3'
+    },
+    {
+      title: 'بلدان',
+      pageId: '48710a4755b54ff9bef81a4aec20d0ba'
+    },
+    {
+      title: 'EN',
+      pageId: 'bb2849d344cf4caeac7aa81be842021f'
+    }
+  ],
+
+  rtlPages: [
+    'bc466a73a6e64ecaa3d9e961260ffa9f',
+    'e56cda56-67e9-4a88-8e70-1c92c4c8d0f3',
+    'e833ae23-c274-4ca1-8aa1-5460767e32f4',
+    '48710a47-55b5-4ff9-bef8-1a4aec20d0ba',
+    '1452bfc4-3a60-4077-8e6f-d624f01ec954',
+    '12fa65c4-df2b-4fc0-850b-d098714847dc'
+  ]
 })
