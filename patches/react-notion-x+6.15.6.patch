@@ -1,0 +1,26 @@
+diff --git a/node_modules/react-notion-x/build/dev/index.js b/node_modules/react-notion-x/build/dev/index.js
+index 2baa64d..0a20155 100644
+--- a/node_modules/react-notion-x/build/dev/index.js
++++ b/node_modules/react-notion-x/build/dev/index.js
+@@ -1957,7 +1957,7 @@ var PageAside = ({
+     className: "notion-aside-table-of-contents"
+   }, /* @__PURE__ */ React25.createElement("div", {
+     className: "notion-aside-table-of-contents-header"
+-  }, "Table of Contents"), /* @__PURE__ */ React25.createElement("nav", {
++  }, "المحتوى"), /* @__PURE__ */ React25.createElement("nav", {
+     className: "notion-table-of-contents"
+   }, toc.map((tocItem) => {
+     const id = uuidToId(tocItem.id);
+diff --git a/node_modules/react-notion-x/build/index.js b/node_modules/react-notion-x/build/index.js
+index d989187..1a8269c 100644
+--- a/node_modules/react-notion-x/build/index.js
++++ b/node_modules/react-notion-x/build/index.js
+@@ -1957,7 +1957,7 @@ var PageAside = ({
+     className: "notion-aside-table-of-contents"
+   }, /* @__PURE__ */ React25.createElement("div", {
+     className: "notion-aside-table-of-contents-header"
+-  }, "Table of Contents"), /* @__PURE__ */ React25.createElement("nav", {
++  }, "المحتوى"), /* @__PURE__ */ React25.createElement("nav", {
+     className: "notion-table-of-contents"
+   }, toc.map((tocItem) => {
+     const id = uuidToId(tocItem.id);
