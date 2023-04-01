@@ -19,6 +19,7 @@ import { getCanonicalPageUrl, mapPageUrl } from '@/lib/map-page-url'
 import { searchNotion } from '@/lib/search-notion'
 import { useDarkMode } from '@/lib/use-dark-mode'
 
+import { ComputerRecommended } from './ComputerRecommended'
 import { Footer } from './Footer'
 import { Loading } from './Loading'
 import { NotionPageHeader } from './NotionPageHeader'
@@ -241,6 +242,8 @@ export const NotionPage: React.FC<types.PageProps> = ({
 
   return (
     <>
+      <ComputerRecommended />
+
       <PageHead
         pageId={pageId}
         site={site}
