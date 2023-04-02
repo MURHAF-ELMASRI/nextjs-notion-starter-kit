@@ -38,12 +38,11 @@ export default siteConfig({
   // map of notion page IDs to URL paths (optional)
   // any pages defined here will override their default URL paths
   // example:
-  //
-  // pageUrlOverrides: {
-  //   '/foo': '067dd719a912471ea9a3ac10710e7fdf',
-  //   '/bar': '0be6efce9daf42688f65c76b89f8eb27'
-  // }
-  pageUrlOverrides: null,
+  pageUrlOverrides: {
+    '/كتب': 'e56cda5667e94a888e701c92c4c8d0f3',
+    '/بلدان': '48710a4755b54ff9bef81a4aec20d0ba',
+    '/مقالات': 'e833ae23c2744ca18aa15460767e32f4'
+  },
 
   // whether to use the default notion navigation style or a custom one with links to
   // important pages
@@ -73,7 +72,7 @@ export default siteConfig({
     'e56cda56-67e9-4a88-8e70-1c92c4c8d0f3',
     'e833ae23-c274-4ca1-8aa1-5460767e32f4',
     '48710a47-55b5-4ff9-bef8-1a4aec20d0ba',
-    "c150714a-5be0-4e1a-8679-5bf2b933b078",
+    'c150714a-5be0-4e1a-8679-5bf2b933b078',
     '12fa65c4-df2b-4fc0-850b-d098714847dc',
     '41efff2f-8e64-4d36-a376-7266203319f6'
   ]
