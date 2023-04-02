@@ -13,7 +13,7 @@ export default siteConfig({
   author: 'Murhaf Al-masri',
 
   // open graph metadata (optional)
-  description: 'Full Stack Developer',
+  description: 'Personal site for Murhaf al-masri',
 
   // social usernames (optional)
   github: 'MURHAF-ELMASRI',
@@ -73,7 +73,7 @@ export default siteConfig({
     'e56cda56-67e9-4a88-8e70-1c92c4c8d0f3',
     'e833ae23-c274-4ca1-8aa1-5460767e32f4',
     '48710a47-55b5-4ff9-bef8-1a4aec20d0ba',
-    '1452bfc4-3a60-4077-8e6f-d624f01ec954',
+    "c150714a-5be0-4e1a-8679-5bf2b933b078",
     '12fa65c4-df2b-4fc0-850b-d098714847dc',
     '41efff2f-8e64-4d36-a376-7266203319f6'
   ]
