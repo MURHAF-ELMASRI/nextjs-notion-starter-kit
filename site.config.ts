@@ -41,8 +41,9 @@ export default siteConfig({
   pageUrlOverrides: {
     '/كتب': 'e56cda5667e94a888e701c92c4c8d0f3',
     '/بلدان': '48710a4755b54ff9bef81a4aec20d0ba',
-    '/مقالات': 'e833ae23c2744ca18aa15460767e32f4'
-  },
+    '/مقالات': 'e833ae23c2744ca18aa15460767e32f4',
+    '/ce5dd0b277284fcf8af639d9cc58246e':'ce5dd0b277284fcf8af639d9cc58246e'
+  },  
 
   // whether to use the default notion navigation style or a custom one with links to
   // important pages
